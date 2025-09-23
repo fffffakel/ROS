@@ -1,0 +1,9 @@
+/home/antoxa/ros/ROS/lab2/build/fffffakel/CMakeFiles/uninstall.dir
+/home/antoxa/ros/ROS/lab2/build/fffffakel/CMakeFiles/fffffakel_uninstall.dir
+/home/antoxa/ros/ROS/lab2/build/fffffakel/CMakeFiles/test.dir
+/home/antoxa/ros/ROS/lab2/build/fffffakel/CMakeFiles/edit_cache.dir
+/home/antoxa/ros/ROS/lab2/build/fffffakel/CMakeFiles/rebuild_cache.dir
+/home/antoxa/ros/ROS/lab2/build/fffffakel/CMakeFiles/list_install_components.dir
+/home/antoxa/ros/ROS/lab2/build/fffffakel/CMakeFiles/install.dir
+/home/antoxa/ros/ROS/lab2/build/fffffakel/CMakeFiles/install/local.dir
+/home/antoxa/ros/ROS/lab2/build/fffffakel/CMakeFiles/install/strip.dir

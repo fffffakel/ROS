@@ -1,0 +1,4 @@
+source;share/fffffakel/local_setup.bash
+source;share/fffffakel/local_setup.dsv
+source;share/fffffakel/local_setup.sh
+source;share/fffffakel/local_setup.zsh
