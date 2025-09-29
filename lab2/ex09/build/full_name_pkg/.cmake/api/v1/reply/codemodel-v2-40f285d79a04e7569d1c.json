@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bc0ad2319c3460dc33ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "full_name_pkg__py",
+					"jsonFile" : "directory-full_name_pkg__py-6dff2b6126b88ed90fc7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/antoxa/ros/ROS/lab2/ex09/build/full_name_pkg/full_name_pkg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "full_name_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_full_name_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_full_name_pkg_egg-4281e2f22a9883ae5531.json",
+					"name" : "ament_cmake_python_build_full_name_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_full_name_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_full_name_pkg-bc35e42f3cf03efcd0f1.json",
+					"name" : "ament_cmake_python_copy_full_name_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg-4e7be4fa0bf65094d33b.json",
+					"name" : "full_name_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__cpp-2389f6c8e5aee699fee2.json",
+					"name" : "full_name_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "full_name_pkg__py::@a704903eeb8661513635",
+					"jsonFile" : "target-full_name_pkg__py-7ca3cdccbf34cfd2ec1b.json",
+					"name" : "full_name_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__rosidl_generator_c-696a7cdb7893e4b6f27c.json",
+					"name" : "full_name_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__rosidl_generator_py-c44db12b83baebc4fed7.json",
+					"name" : "full_name_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__rosidl_generator_type_description-66090708f69da785004a.json",
+					"name" : "full_name_pkg__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__rosidl_typesupport_c-0aa282176dab420fcfa8.json",
+					"name" : "full_name_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__rosidl_typesupport_cpp-f6087ffa0ef26e66db29.json",
+					"name" : "full_name_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__rosidl_typesupport_fastrtps_c-1b36e8c56fe7f8636ebb.json",
+					"name" : "full_name_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__rosidl_typesupport_fastrtps_cpp-d05b8140ef542121f14e.json",
+					"name" : "full_name_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__rosidl_typesupport_introspection_c-e449430b7de8d0b4420a.json",
+					"name" : "full_name_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg__rosidl_typesupport_introspection_cpp-68aaa2e5077383200456.json",
+					"name" : "full_name_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg_s__rosidl_typesupport_c-7e0e06a30586f0de25ab.json",
+					"name" : "full_name_pkg_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg_s__rosidl_typesupport_fastrtps_c-800530b92f67041440c5.json",
+					"name" : "full_name_pkg_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg_s__rosidl_typesupport_introspection_c-9f826bd754650f573b32.json",
+					"name" : "full_name_pkg_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_pkg_uninstall-c64e53ba5a5c6de29297.json",
+					"name" : "full_name_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-11c15387c53419486722.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/antoxa/ros/ROS/lab2/ex09/build/full_name_pkg",
+		"source" : "/home/antoxa/ros/ROS/lab2/ex09/full_name_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

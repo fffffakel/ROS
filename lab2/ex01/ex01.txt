@@ -1,6 +1,9 @@
 ROS_VERSION=2
 ROS_PYTHON_VERSION=3
-PWD=/home/antoxa/ros/ROS/lab2/ex01
-ROS_DOMAIN_ID=0
+AMENT_PREFIX_PATH=/opt/ros/jazzy
+CMAKE_PREFIX_PATH=/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor
 ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
+PYTHONPATH=/opt/ros/jazzy/lib/python3.12/site-packages
+LD_LIBRARY_PATH=/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib
+PATH=/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 ROS_DISTRO=jazzy

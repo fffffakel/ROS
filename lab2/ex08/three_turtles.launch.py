@@ -3,43 +3,40 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        # Первый turtlesim узел (ведущая черепаха)
         Node(
             package='turtlesim',
+            namespace='turtlesim1',
             executable='turtlesim_node',
-            name='turtlesim1',
-            output='screen'
+            name='sim'
         ),
-        
-        # Второй turtlesim узел (первая следующая черепаха)
         Node(
             package='turtlesim',
+            namespace='turtlesim2',
             executable='turtlesim_node',
-            name='turtlesim2',
-            output='screen'
+            name='sim'
         ),
-        
-        # Третий turtlesim узел (вторая следующая черепаха)
         Node(
             package='turtlesim',
+            namespace='turtlesim3',
             executable='turtlesim_node',
-            name='turtlesim3',
-            output='screen'
+            name='sim'
         ),
-        
-        # Узел mimic для второй черепахи (следует за первой)
         Node(
             package='turtlesim',
             executable='mimic',
-            name='mimic1',
-            parameters=[{'input_topic': '/turtle1/cmd_vel', 'output_topic': '/turtle2/cmd_vel'}]
+            name='mimic',
+            remappings=[
+                ('/input/pose', '/turtlesim1/turtle1/pose'),
+                ('/output/cmd_vel', '/turtlesim2/turtle1/cmd_vel'),
+            ]
         ),
-        
-        # Узел mimic для третьей черепахи (следует за второй)
         Node(
             package='turtlesim',
             executable='mimic',
-            name='mimic2',
-            parameters=[{'input_topic': '/turtle2/cmd_vel', 'output_topic': '/turtle3/cmd_vel'}]
+            name='mimic',
+            remappings=[
+                ('/input/pose', '/turtlesim2/turtle1/pose'),
+                ('/output/cmd_vel', '/turtlesim3/turtle1/cmd_vel'),
+            ]
         )
     ])

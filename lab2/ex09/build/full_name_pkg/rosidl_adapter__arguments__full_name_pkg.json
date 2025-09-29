@@ -1,0 +1,7 @@
+{
+  "package_name": "full_name_pkg",
+  "non_idl_tuples": [
+    "/home/antoxa/ros/ROS/lab2/ex09/full_name_pkg:msg/FullNameMessage.msg",
+    "/home/antoxa/ros/ROS/lab2/ex09/full_name_pkg:srv/FullNameSumService.srv"
+  ]
+}
