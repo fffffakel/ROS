@@ -1,0 +1,4 @@
+ros2 run turtlesim turtlesim_node - 1 terminal
+
+
+ros2 run move_to_goal move 1.0 1.0 90 - 2 terminal
