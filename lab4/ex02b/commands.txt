@@ -1,0 +1,7 @@
+1. ros2 launch turtle_multi_target turtles_setup.launch.py
+
+2. ros2 run turtle_multi_target target_switcher
+
+3. ros2 run turtle_multi_target turtle_controller
+
+4. ros2 run turtlesim turtle_teleop_key
