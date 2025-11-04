@@ -4,7 +4,7 @@
   <name>movement_circle</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="lekyshka@todo.todo">lekyshka</maintainer>
+  <maintainer email="a.shokolov1@g.nsu.ru">antoxa</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>
