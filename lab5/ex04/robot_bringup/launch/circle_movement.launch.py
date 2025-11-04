@@ -37,7 +37,11 @@ def generate_launch_description():
                 },
                 {
                     "direction_of_rotation": LaunchConfiguration('direction_of_rotation')
+                },
+                {
+                    'use_sim_time': True
                 }
+
             ]
         ),
     ])

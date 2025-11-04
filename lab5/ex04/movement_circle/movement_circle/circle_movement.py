@@ -26,14 +26,9 @@ class FrameListener(Node):
     def on_timer(self):
 
         msg = Twist()
-        scale_forward_speed = 0.5
         msg.linear.x = 0.5
-        
         msg.angular.z = 1.0
    
-       
- 
-
         self.publisher.publish(msg)
 
 
