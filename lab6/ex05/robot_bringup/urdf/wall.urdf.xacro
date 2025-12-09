@@ -1,0 +1,26 @@
+<!-- wall.urdf.xacro -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Определение макроса для стены -->
+    <xacro:macro name="wall" params="">
+        <link name="wall_link">
+            <visual>
+                <geometry>
+                    <box size="3 0.1 1"/> <!-- Размеры стены -->
+                </geometry>
+                <origin xyz="1.5 0 0.5" rpy="0 0 ${M_PI / 2}"/> <!-- Поворот на 90 градусов -->
+                <material name="Gray">
+                    <color rgba="0.5 0.5 0.5 1"/>
+                </material>
+            </visual>
+            <collision>
+                <geometry>
+                    <box size="3 0.1 1"/>
+                </geometry>
+                <origin xyz="1.5 0 0.5" rpy="0 0 ${M_PI / 2}"/>
+            </collision>
+        </link>
+    </xacro:macro>
+
+</robot>
+
