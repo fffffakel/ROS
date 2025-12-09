@@ -9,11 +9,8 @@ import time
 class Lidar(Node):
 
      def __init__(self):
-         # Creates a node with name 'turtlebot_controller' and make sure it is a
-         # unique node (using anonymous=True).
          super().__init__('lidar')
 
-         # Publisher which will publish to the topic '/turtle1/cmd_vel'.
          self.velocity_publisher = self.create_publisher(Twist, '/robot/cmd_vel', 10)
          self.pose_subscriber = self.create_subscription(LaserScan, '/robot/scan', self.update_pose, 10)
          self.scan = LaserScan()
@@ -28,7 +25,6 @@ class Lidar(Node):
          laser = self.scan.ranges
          vel_msg.linear.x = 0.
          if (len(laser)!=0):
-         #self.get_logger().info('%d" ' % laser)
             if (laser[179]<0.41):
                 vel_msg.linear.x = 0.
             else:
@@ -37,7 +33,6 @@ class Lidar(Node):
          self.velocity_publisher.publish(vel_msg)
 def main(args=None):
     rclpy.init(args=args)
-    #give time to place an obstacle 
     time.sleep(2)
     x = Lidar()
     rclpy.spin(x)
